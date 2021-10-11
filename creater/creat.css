@@ -1,0 +1,16 @@
+<?php
+require_once '../app/include/database.php';
+require_once '../app/include/functions.php';
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$conn = new PDO( "mysql:host=$servername;dbname=myblog", $username, $password);
+mysqli_connect('localhost','root','root','myblog');
+if(isset($_FILES['image']['tmp_name'])){
+move_uploaded_file($_FILES['image']['tmp_name'],"../uploads/".$_FILES['image']['name']);
+
+	$query = "INSERT INTO posts VALUES (NULL ,:title,:image,:content)";
+	$msg = $conn->prepare($query);
+	$msg->execute(['title'=>$_POST['title'],'image' => $_FILES['image']['name'] , 'content' => $_POST['content']]);
+}
+?>

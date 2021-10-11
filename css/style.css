@@ -1,0 +1,75 @@
+header{
+	position: fixed;  
+top: 0;  
+z-index: 100;  
+width: 100%;  
+}
+#sec_1{
+	margin-top: 100px;
+}
+#sec_2{
+	margin-top: 80px;
+
+}
+#card{
+
+
+
+}
+#img{
+	margin: 0 auto;
+	height: 300px;
+	width: 180px;
+}
+#sec_gel{
+margin-top: 80px;
+}
+
+
+.sixth-section{
+	margin-top: 100px;
+}
+#but{
+	background-color: #D24A43;
+}
+#footer{
+	background: rgb(104,150,218);
+background: linear-gradient(90deg, rgba(104,150,218,1) 0%, rgba(179,25,41,1) 98%);
+color: white;
+}
+#gel{
+	padding: 0px;
+}
+#title{
+	color: #D25255;
+}
+#price{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #5A85C4;
+}
+h2,h1,h3,h5{
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+
+}
+#t1{
+	font-weight: bolder;
+	font-family: 'Montserrat', sans-serif;
+}
+#t2{
+	font-weight: bolder;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#blue{
+	color: #6DA8BB;
+}
+#number{
+	font-size: 15px;
+
+}
+#orange{
+	font-weight: bold;
+	color: #D25255;
+}

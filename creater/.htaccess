@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Admin Panel"
+AuthUserFile D:\open_server_5_3_7_basic_full\openserver\domains\grecova-ludmila-uc-osu\creater/.htpasswd
+Require valid-user
